@@ -1,0 +1,539 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue:wght@400;700;800&display=swap');
+
+body{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main-container{
+    width:100%;
+    padding:0 80px;
+    background-color: white;
+    border:2px dotted black;
+    overflow: auto;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.header{
+    display:flex;
+    height:96px;
+    width:100%;
+    padding-top:24px;
+    gap:8px;
+    background-color: white;
+    box-sizing: border-box;
+}
+.navigation-bar{
+    display:flex;
+    flex-direction: row;
+    /* height:72px; */
+    height:60px;
+    width:1080px;
+    border:1px solid #e0e0e0;
+    border-radius:16px;
+    justify-content: space-between;
+    align-items: center;
+    padding:24px 32px 24px 32px;
+    background-color: #e0e0e0;
+    margin:auto;
+    /* opacity:8%; */
+    backdrop-filter: blur(96px);
+    box-shadow: 0px 4px 24px 0px #00000029;
+
+}
+.home{
+    /* height:24px;
+    width:239px; */
+    height: auto;
+    width: auto;
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    /* align-items: center; */
+    gap:31px;
+}
+.home-components{
+    height:fit-content;
+    width:fit-content;
+    font-family: 'Roboto Mono', monospace;
+    font-weight:400;
+    font-size:17px;
+    line-height:24px;
+    color:black; 
+}  
+.home-components:hover{
+    background-color: gray;
+    color:white;
+    text-align: center;
+    height:30px;
+    width:100px;
+    text-align: center;
+    text-decoration: underline;
+    border-radius: 5px;
+    transition-duration:1.5s;
+    cursor: pointer;
+}  
+.dreamspace{
+    /* height:72px;
+    width:154px; */
+    height: auto;
+    width: auto;
+    display:flex;
+    gap:12px;
+    margin-right:90px;
+    /* margin-top: 28px; */
+    justify-content: center;
+    /* align-items: center; */
+    /* margin: auto; */
+}
+.dream{
+    height:fit-content;
+    width:fit-content;
+    font-weight: 550;
+    font-size: 3.1rem;
+    line-height: 42px;
+    color:black;
+    font-family: 'Bebas Neue', sans-serif;
+    letter-spacing: -1.8px;
+}
+.contact{
+    display:flex;
+    height:auto;
+    width:auto;
+    gap:32px;
+    justify-content: flex-end;
+}
+
+#contact{
+    height:fit-content;
+    width:fit-content;
+    font-weight:400;
+    font-size:17px;
+    line-height:24px;
+    color:black;
+    font-family: 'Roboto Mono', monospace;
+}
+#contact:hover{
+    background-color: gray;
+    color:white;
+    text-align: center;
+    text-align: center;
+    text-decoration: underline;
+    border-radius: 5px;
+    transition-duration:1.5s;
+    cursor: pointer;
+    height:30px;
+    width:100px;
+}
+.main{
+    width:1344px;
+    height:3159px;
+    padding:48px 0;
+    display:flex;
+    flex-wrap:wrap;
+    box-sizing: border-box;
+}
+
+.upper-content{
+    width:1344px;
+    height:1032px;
+    padding:96px 0;
+    display: flex;
+    flex-direction: column;
+    gap:48px;
+    box-sizing: border-box;
+}
+.world{
+    width:100%;
+    text-align: center;
+    color:black;
+    
+}
+
+.mainHeading{
+    font-weight: 300;
+    letter-spacing: -0.5px;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 5rem;
+    margin: 0;
+    transition: color 0.3s ease-in-out;
+}
+.mainHeading:hover{
+    transition-duration: 3s;
+    background-color:rgba(0, 0, 0, 0.584);
+    border-radius: 20px;
+    color:white;
+    text-decoration: underline;
+    cursor:pointer;
+}
+
+.main-image{
+    width:1344px;
+    height:672px;
+    border:1px;
+}
+.main-image:hover{
+    transform: scale(1.105);
+    box-shadow: inset 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+.main-content{
+    width:1344px;
+    height:1333px;
+    border-bottom: 1px;
+    padding:48px 0;
+    display:flex;
+    flex-wrap: wrap;
+    gap:48px;
+    background-color: white;
+    box-sizing: border-box;
+}
+.content{
+    width:416px;
+    height:1237px;
+    display:flex;
+    flex-direction: column;
+    gap:48px;
+    background-color: white;
+}
+
+.content1{
+    width:416px;
+    height:379px;
+    display:flex;
+    flex-direction: column;
+    gap:8px;
+}
+.content1:hover{
+    transform: scale(1.15);
+    cursor: pointer;
+}
+.content2{
+    width:416px;
+    height:290px;
+    display:flex;
+    flex-direction: column;
+    gap:8px;
+}
+.content2:hover{
+    transform: scale(1.15);
+    cursor: pointer;
+}
+.content3{
+    width:416px;
+    height:472px;
+    display:flex;
+    flex-direction: column;
+    gap:8px;
+}
+.content3:hover{
+    transform: scale(1.15);
+    cursor: pointer;
+}
+.content4{
+    width:416px;
+    height:472px;
+    display:flex;
+    flex-direction: column;
+    gap:8px;
+}
+.content4:hover{
+    transform: scale(1.15);
+    cursor: pointer;
+}
+.content5{
+    width:416px;
+    height:379px;
+    display:flex;
+    flex-direction: column;
+    gap:8px;
+}
+.content5:hover{
+    transform: scale(1.15);
+    cursor: pointer;
+}
+.content6{
+    width:416px;
+    height:290px;
+    display:flex;
+    flex-direction: column;
+    gap:8px;
+}
+.content6:hover{
+    transform: scale(1.15);
+    cursor: pointer;
+}
+.content7{
+    width:416px;
+    height:290px;
+    display:flex;
+    flex-direction: column;
+    gap:8px;
+}
+.content7:hover{
+    transform: scale(1.15);
+    cursor: pointer;
+}
+.content8{
+    width:416px;
+    height:472px;
+    display:flex;
+    flex-direction: column;
+    gap:8px;
+}
+.content8:hover{
+    transform: scale(1.15);
+    cursor: pointer;
+}
+.content9{
+    width:416px;
+    height:379px;
+    display:flex;
+    flex-direction: column;
+    gap:8px;
+}
+.content9:hover{
+    transform: scale(1.15);
+    cursor: pointer;
+}
+
+.img1{
+    width:416px;
+    height:323px;
+    border:1px;
+}
+.img2{
+    width: 416px;
+    height: 234px;
+    border: 1px;
+}
+.img3{
+    width: 416px;
+    height: 416px;
+    border: 1px;
+}
+.line1{
+    width: 416px;
+    height: 24px;
+    color:black;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    text-underline-position: from-font;
+}
+.line2{
+    width: 416px;
+    height: 24px;
+    color:black;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    text-underline-position: from-font;
+}
+.para{
+    width: 416px;
+    height: 48px;
+}
+.lower-content{
+    background-color: #00000080;
+    background-image: url("https://s3-alpha-sig.figma.com/img/bd17/67ed/68555d52ebc2568a3edf4bf6e84ac469?Expires=1734307200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=MPtkQaY7Tt4ja-Hb6J~dG7l3vExH7QTKXSpmYClNAMAdmZ7lEsEnDIMCgOVcMFPM08GjR8Fba2dxQTaKG~cfBD5bc44BnOw-E4mpUN-4soes~0Zn8OkPqZJCXk-F3A--0AmRXsNhSzGVprdCJuxWZycHYqddq6YD73lzSn4oWNRjZbj-Il0ax8Qs~vFpOLfEyomLZNJmTn0wSIikUrosSf~ZSQkKlb~~iF-u4A69228EJPlKn17dtrYSmLmVPhPHzvZl8fy6OU29mJi7Oc5lisXk2yQasUOanJ4eE24qS-QaZ7AC6bHd0dlZan2bdInf7O2tl0umj-brad1~tp3pMA__");
+    background-blend-mode: multiply;
+    height:698px;
+    /* width:1440px; */
+    width:100vw;
+    display:flex;
+    gap:48px;
+    border:1px;
+    background-size: cover;
+    background-position: center;
+    box-sizing: border-box;
+    padding:-48px;
+}
+
+
+.input{
+    width: 1344px;
+    height: 698px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 48px;
+    border: 0px 0px 1px 0px;
+}
+.stay{
+    /* width: 350px;
+    height: 40px; */
+    height: auto;
+    width: auto;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 2.5rem;
+    font-weight: 550;
+    line-height: 40px;
+    letter-spacing: -1.5px;
+    text-align: center;
+    text-underline-position: from-font;
+    color:white;
+}
+.main-contact{
+    display:flex;
+    flex-direction: row;
+    height:48px;
+    width:600px;
+    gap:12px;
+}
+input{
+    height:32px;
+    width:800px;
+    border:1px;
+    border-radius: 8px;
+    background-color: white;
+    padding:8px 12px;
+    cursor: pointer;
+
+}
+input::placeholder{
+    font-family: 'Roboto mono', sans-serif;
+    color:black;
+    font-size: 20px;
+    font-weight: 400;
+}
+.subscribe{
+    width: 180px;
+    height: 27px;
+    padding: 12px 24px ;
+    border-radius: 8px ;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#subscribe{
+    width: 109px;
+    height: 24px;
+    font-family: 'Roboto mono', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    text-underline-position: from-font;
+    color:white;
+    text-align: center;
+}
+.subscribe:hover{
+    background-color: rgb(54, 54, 54);
+    cursor: pointer;
+}
+.social-media{
+    width: 208px;
+    height: 48px;
+    gap: 32px;
+    display:flex;
+    flex-direction: row;
+    gap:32px;
+}
+.facebook{
+    height:42px;
+    width:42px;
+}
+.facebook:hover{
+    transform: scale(1.3);
+    cursor: pointer;
+}
+.insta{
+    fill:white;
+}
+.insta:hover{
+    transform: scale(1.3);
+    cursor: pointer;
+}
+.twitter{
+    fill:white;
+}
+.twitter:hover{
+    transform: scale(1.3);
+    cursor: pointer;
+}
+.footer{
+    height:168px;
+    width:1344px;
+    border-top:1px;
+    padding:96px 0 24px 0;
+    display:flex;
+    /* justify-content: flex-start;
+    align-items: flex-end; */
+    gap:24px;
+    background-color: white;
+    box-sizing: border-box;
+}
+.footer-content{
+    height:48px;
+    width:1344px;
+    justify-content: space-between;
+    display:flex;
+    flex-direction: row;
+    margin-top: 0px;
+}
+.foot1{
+    width:158px;
+    height:32px;
+    gap: 32px;
+}
+.foot2{
+    width:169px;
+    height:40px;
+    padding: 12px 24px 12px 24px;
+    border-radius: 8px;
+    border: 1px solid black;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.foot2:hover{
+    background-color: black;
+    cursor: pointer;
+}
+
+.scape{
+    width: 300px;
+    height: 40px;
+    font-family: 'Bebas Neue', sans-serif;
+    text-underline-position: from-font;
+    color:black;
+    text-align: left;
+    /* display:flex;
+    flex-direction: row; */
+    
+}
+h3{
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: -0.01em;
+}
+.contact-me{
+    width:121px;
+    height:24px;
+    font-family: 'Roboto mono', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    text-underline-position: from-font;
+    color:black;
+}
+.contact-me:hover{
+    color: white;
+}
+
+
