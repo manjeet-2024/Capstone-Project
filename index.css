@@ -32,7 +32,7 @@ body{
     display:flex;
     flex-direction: row;
     /* height:72px; */
-    height:60px;
+    height:25px;
     width:1080px;
     border:1px solid #e0e0e0;
     border-radius:16px;
@@ -85,7 +85,7 @@ body{
     width: auto;
     display:flex;
     gap:12px;
-    margin-right:90px;
+    margin-right:200px;
     /* margin-top: 28px; */
     justify-content: center;
     /* align-items: center; */
@@ -94,8 +94,8 @@ body{
 .dream{
     height:fit-content;
     width:fit-content;
-    font-weight: 550;
-    font-size: 3.1rem;
+    font-weight: 300;
+    font-size: 2.8rem;
     line-height: 42px;
     color:black;
     font-family: 'Bebas Neue', sans-serif;
@@ -159,7 +159,7 @@ body{
     font-weight: 300;
     letter-spacing: -0.5px;
     font-family: 'Bebas Neue', sans-serif;
-    font-size: 5rem;
+    font-size: 7rem;
     margin: 0;
     transition: color 0.3s ease-in-out;
 }
@@ -345,7 +345,7 @@ body{
 }
 .lower-content{
     background-color: #00000080;
-    background-image: url("https://s3-alpha-sig.figma.com/img/bd17/67ed/68555d52ebc2568a3edf4bf6e84ac469?Expires=1734307200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=MPtkQaY7Tt4ja-Hb6J~dG7l3vExH7QTKXSpmYClNAMAdmZ7lEsEnDIMCgOVcMFPM08GjR8Fba2dxQTaKG~cfBD5bc44BnOw-E4mpUN-4soes~0Zn8OkPqZJCXk-F3A--0AmRXsNhSzGVprdCJuxWZycHYqddq6YD73lzSn4oWNRjZbj-Il0ax8Qs~vFpOLfEyomLZNJmTn0wSIikUrosSf~ZSQkKlb~~iF-u4A69228EJPlKn17dtrYSmLmVPhPHzvZl8fy6OU29mJi7Oc5lisXk2yQasUOanJ4eE24qS-QaZ7AC6bHd0dlZan2bdInf7O2tl0umj-brad1~tp3pMA__");
+    background-image: url("https://s3-alpha-sig.figma.com/img/bd17/67ed/68555d52ebc2568a3edf4bf6e84ac469?Expires=1735516800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=Vw6Dx83lDgLGJCDyqX1fazv7k9nRHkz0gqTK~FfOjKSYkfw5FeOxm4a2k1jC04H7mSQ-Lkhy4S~YzUWamsY4R5aWWLlNgn2oRxKnRFnTVDX9T5A6M6TR0MIQVF-gC4yOtUE-tiDIzEAuouK9rdutySRpdipA6nFtthsAtAD6-LX66-t3vL7KnSMIEjUqPM~QlSO2zXT2~VL-q8L1trChAB1RS2fidPviEhu1jZkcQng-BAZGOA7OxSmNcl4B1o~XChNz0yrkTnfZ6XUdyq8k88oLEvULREH6GNJNJqDYqfxMC6Bs-EjDLI73FZ59xp3J3xRoSrrOFMurMtFJ3fg4iA__");
     background-blend-mode: multiply;
     height:698px;
     /* width:1440px; */
@@ -377,7 +377,7 @@ body{
     height: auto;
     width: auto;
     font-family: 'Bebas Neue', sans-serif;
-    font-size: 2.5rem;
+    font-size: 2.3rem;
     font-weight: 550;
     line-height: 40px;
     letter-spacing: -1.5px;
@@ -522,8 +522,9 @@ h3{
     letter-spacing: -0.01em;
 }
 .contact-me{
-    width:121px;
-    height:24px;
+    width:fit-content;
+    height:fit-content;
+    padding:5px;
     font-family: 'Roboto mono', sans-serif;
     font-size: 20px;
     font-weight: 400;
